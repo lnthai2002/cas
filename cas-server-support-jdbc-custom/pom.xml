@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.jasig.cas</groupId>
+    <artifactId>cas-server</artifactId>
+    <version>3.5.3-SNAPSHOT</version>
+  </parent>
+  <groupId>org.jasig.cas</groupId>
+  <artifactId>cas-server-support-jdbc-custom</artifactId>
+  <version>3.5.3-SNAPSHOT</version>
+  <name>Custom JDBC Authentication for Darkportal</name>
+  <dependencies>
+  	<dependency>
+		<groupId>org.jasig.cas</groupId>
+		<artifactId>cas-server-core</artifactId>
+		<version>${project.version}</version>
+	</dependency>
+	<dependency>
+		<groupId>org.jasig.cas</groupId>
+		<artifactId>cas-server-support-jdbc</artifactId>
+		<version>${project.version}</version>
+	</dependency>
+  </dependencies>
+</project>
