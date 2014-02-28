@@ -35,6 +35,9 @@
         p:servicesManager-ref="servicesManager">
     <property name="mobileBrowsers">
       <map>
+      	<entry key=".*BB10.*" value="iphone"/>
+      	<entry key=".*PlayBook.*" value="iphone"/>
+      	<entry key=".*BlackBerry.*" value="iphone"/>
         <entry key=".*iPhone.*" value="iphone"/>
         <entry key=".*Android.*" value="iphone"/>
         <entry key=".*Safari.*Pre.*" value="iphone"/>
